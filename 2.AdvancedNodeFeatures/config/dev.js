@@ -1,7 +1,8 @@
 //cognizant.udemy.com/course/advanced-node-for-developers/learn/lecture/9646804#questions/10049240
+const devVariables = require('./devVariables');
 https: module.exports = {
-  googleClientID: process.env.GOOGLE_CLIENT_ID,
-  googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
-  mongoURI: process.env.MONGO_URI,
-  cookieKey: process.env.COOKIE_KEY,
+  googleClientID: devVariables.GOOGLE_CLIENT_ID,
+  googleClientSecret: devVariables.GOOGLE_CLIENT_SECRET,
+  mongoURI: devVariables.MONGO_URI,
+  cookieKey: devVariables.COOKIE_KEY,
 };

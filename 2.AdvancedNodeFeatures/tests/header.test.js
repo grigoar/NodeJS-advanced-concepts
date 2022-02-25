@@ -28,7 +28,7 @@ test('clicking login starts oauth flow', async () => {
   expect(url).toMatch(/accounts\.google\.com/);
 });
 
-test.only('When signed in, shows logout button', async () => {
+test('When signed in, shows logout button', async () => {
   // const id = '6215c8f2eed7d238d0d7123d';
   const user = await userFactory();
   console.log(user);

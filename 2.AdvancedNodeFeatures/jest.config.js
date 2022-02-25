@@ -1,5 +1,13 @@
-// const setup = require("./tests/setup")
+// const setup = require('./tests/jest.setup');
 module.exports = {
+  verbose: true,
+  setupFilesAfterEnv: ['./tests/setup.js'],
   testEnvironment: 'node',
-  setupFilesAfterEnv: ['./tests/setup'],
 };
+
+// module.exports = async () => {
+//   console.log('---------------------CONFIG FILE');
+//   return {
+//     verbose: true,
+//   };
+// };
