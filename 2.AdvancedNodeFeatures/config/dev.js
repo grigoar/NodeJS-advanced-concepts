@@ -5,4 +5,6 @@ https: module.exports = {
   googleClientSecret: devVariables.GOOGLE_CLIENT_SECRET,
   mongoURI: devVariables.MONGO_URI,
   cookieKey: devVariables.COOKIE_KEY,
+  accessKeyId: devVariables.AMAZON_ACCESS_KEY_ID,
+  secretAccessKey: devVariables.AMAZON_SECRET_ACCESS_KEY,
 };
